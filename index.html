@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>El Altoyork 2077</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Arizonia&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/animate.css">
+	
+	<link rel="stylesheet" href="css/owl.carousel.min.css">
+	<link rel="stylesheet" href="css/owl.theme.default.min.css">
+	<link rel="stylesheet" href="css/magnific-popup.css">
+
+	<link rel="stylesheet" href="css/bootstrap-datepicker.css">
+	<link rel="stylesheet" href="css/jquery.timepicker.css">
+
+	
+	<link rel="stylesheet" href="css/flaticon.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+		<div class="container">
+			<a class="navbar-brand" href="index.html">El Alto<span>Agencia de Turismo</span></a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="oi oi-menu"></span> Menu
+			</button>
+
+			<div class="collapse navbar-collapse" id="ftco-nav">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item active"><a href="index.html" class="nav-link">Inicio</a></li>
+					<li class="nav-item"><a href="#sobre_nosotros" class="nav-link">Sobre Nosotros</a></li>
+					<li class="nav-item"><a href="#destinos" class="nav-link">Destinos</a></li>
+					<li class="nav-item"><a href="#hoteles" class="nav-link">Hotel</a></li>
+					<li class="nav-item"><a href="#gastronomia" class="nav-link">Gastronomia</a></li>
+					<li class="nav-item"><a href="#testimonios" class="nav-link">Testimonios</a></li>
+					<li class="nav-item"><a href="#contacto" class="nav-link">Contacto</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<!-- END nav -->
+	
+	<div class="hero-wrap js-fullheight" style="background-image: url('https://www.elalto.gob.bo/wp-content/uploads/2022/11/1-768x432.jpg');">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row no-gutters slider-text js-fullheight align-items-center" data-scrollax-parent="true">
+				<div class="col-md-7 ftco-animate">
+					<span class="subheading">Bienvenido a El Alto</span>
+					<h1 class="mb-4">Descubre tu lugar favorito con nosotros</h1>
+					<p class="caps">Viaja a cualquier rincón de El Alto, sin dar vueltas en círculos.</p>
+				</div>
+				<a href="/images/BELLEZA NATURAL..mp4" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
+					<span class="fa fa-play"></span>
+				</a>
+			</div>
+		</div>
+	</div>
+
+	<!-- <section class="ftco-section ftco-no-pb ftco-no-pt">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="ftco-search d-flex justify-content-center">
+						<div class="row">
+							<div class="col-md-12 nav-link-wrap">
+								<div class="nav nav-pills text-center" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+									<a class="nav-link active mr-md-1" id="v-pills-1-tab" data-toggle="pill" href="#hoteles" role="tab" aria-controls="v-pills-1" aria-selected="true">Buscar un recorrido</a>
+
+									<a class="nav-link" id="v-pills-2-tab" data-toggle="pill" href="#v-pills-2" role="tab" aria-controls="v-pills-2" aria-selected="false">Hotel</a>
+
+								</div>
+							</div>
+							<div class="col-md-12 tab-wrap">
+								
+								<div class="tab-content" id="v-pills-tabContent">
+
+									<div class="tab-pane fade show active" id="v-pills-1" role="tabpanel" aria-labelledby="v-pills-nextgen-tab">
+										<form action="#" class="search-property-1">
+											<div class="row no-gutters">
+												<div class="col-md d-flex">
+													<div class="form-group p-4 border-0">
+														<label for="#">Destino</label>
+														<div class="form-field">
+															<div class="icon"><span class="fa fa-search"></span></div>
+															<input type="text" class="form-control" placeholder="Buscar un lugar">
+														</div>
+													</div>
+												</div>
+												<div class="col-md d-flex">
+													<div class="form-group p-4">
+														<label for="#">Fecha de entrada</label>
+														<div class="form-field">
+															<div class="icon"><span class="fa fa-calendar"></span></div>
+															<input type="text" class="form-control checkin_date" placeholder="Fecha de entrada">
+														</div>
+													</div>
+												</div>
+												<div class="col-md d-flex">
+													<div class="form-group p-4">
+														<label for="#">Fecha de salida</label>
+														<div class="form-field">
+															<div class="icon"><span class="fa fa-calendar"></span></div>
+															<input type="text" class="form-control checkout_date" placeholder="Fecha de salida">
+														</div>
+													</div>
+												</div>
+												<div class="col-md d-flex">
+													<div class="form-group p-4">
+														<label for="#">Limite de precio</label>
+														<div class="form-field">
+															<div class="select-wrap">
+																<div class="icon"><span class="fa fa-chevron-down"></span></div>
+																<select name="" id="" class="form-control">
+																	<option value="">$100</option>
+																	<option value="">$10,000</option>
+																	<option value="">$50,000</option>
+																	<option value="">$100,000</option>
+																	<option value="">$200,000</option>
+																	<option value="">$300,000</option>
+																	<option value="">$400,000</option>
+																	<option value="">$500,000</option>
+																	<option value="">$600,000</option>
+																	<option value="">$700,000</option>
+																	<option value="">$800,000</option>
+																	<option value="">$900,000</option>
+																	<option value="">$1,000,000</option>
+																	<option value="">$2,000,000</option>
+																</select>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-md d-flex">
+													<div class="form-group d-flex w-100 border-0">
+														<div class="form-field w-100 align-items-center d-flex">
+															<input type="submit" value="Buscar" class="align-self-stretch form-control btn btn-primary">
+														</div>
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+
+									<div class="tab-pane fade" id="v-pills-2" role="tabpanel" aria-labelledby="v-pills-performance-tab">
+										<form action="#" class="search-property-1">
+											<div class="row no-gutters">
+												<div class="col-lg d-flex">
+													<div class="form-group p-4 border-0">
+														<label for="#">Destino</label>
+														<div class="form-field">
+															<div class="icon"><span class="fa fa-search"></span></div>
+															<input type="text" class="form-control" placeholder="Buscar un lugar">
+														</div>
+													</div>
+												</div>
+												<div class="col-lg d-flex">
+													<div class="form-group p-4">
+														<label for="#">Fecha de entrada</label>
+														<div class="form-field">
+															<div class="icon"><span class="fa fa-calendar"></span></div>
+															<input type="text" class="form-control checkin_date" placeholder="Fecha de entrada">
+														</div>
+													</div>
+												</div>
+												<div class="col-lg d-flex">
+													<div class="form-group p-4">
+														<label for="#">Fecha de salida</label>
+														<div class="form-field">
+															<div class="icon"><span class="fa fa-calendar"></span></div>
+															<input type="text" class="form-control checkout_date" placeholder="Fecha de salida">
+														</div>
+													</div>
+												</div>
+												<div class="col-lg d-flex">
+													<div class="form-group p-4">
+														<label for="#">Limite de precio</label>
+														<div class="form-field">
+															<div class="select-wrap">
+																<div class="icon"><span class="fa fa-chevron-down"></span></div>
+																<select name="" id="" class="form-control">
+																	<option value="">$100</option>
+																	<option value="">$10,000</option>
+																	<option value="">$50,000</option>
+																	<option value="">$100,000</option>
+																	<option value="">$200,000</option>
+																	<option value="">$300,000</option>
+																	<option value="">$400,000</option>
+																	<option value="">$500,000</option>
+																	<option value="">$600,000</option>
+																	<option value="">$700,000</option>
+																	<option value="">$800,000</option>
+																	<option value="">$900,000</option>
+																	<option value="">$1,000,000</option>
+																	<option value="">$2,000,000</option>
+																</select>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="col-lg d-flex">
+													<div class="form-group d-flex w-100 border-0">
+														<div class="form-field w-100 align-items-center d-flex">
+															<input type="submit" value="Buscar" class="align-self-stretch form-control btn btn-primary p-0">
+														</div>
+													</div>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+		<section id="bienvenida" class="ftco-section services-section">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-6 order-md-last heading-section pl-md-5 ftco-animate d-flex align-items-center">
+						<div class="w-100">
+							<span class="subheading">Bienvenido a El Alto!</span>
+							<h2 class="mb-4">Es hora de empezar tu aventura</h2>
+							<p>Sabias que la ciudad de El Alto es la ciudad mas joven de Bolivia, ademas se fue poblando por mineros relacionados, migrantes del campo y extranjeros.</p>
+							<p>El Alto, en el altiplano boliviano cerca de La Paz, ofrece una experiencia turística única. Con su bullicioso mercado, arquitectura colorida y festividades tradicionales, es un lugar vibrante para explorar. Desde el Mercado 16 de Julio hasta el Mirador Killi Killi, te esperan vistas impresionantes y una cultura rica para descubrir en El Alto</p>
+							<p><a href="#destinos" class="btn btn-primary py-3 px-4">Buscar</a></p>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="row">
+							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+								<div class="services services-1 color-1 d-block img" style="background-image: url(https://www.urgente.bo/sites/default/files/Feria%2016%20de%20Julio.jpg);">
+									<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-paragliding"></span></div>
+									<div class="media-body">
+										<h3 class="heading mb-3">Actividades</h3>
+										<p>Sumérgete en el Mercado 16 de Julio en El Alto. Un bullicioso y colorido lugar para descubrir una amplia variedad de productos locales y artesanías únicas.</p>
+									</div>
+								</div>      
+							</div>
+							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+								<div class="services services-1 color-2 d-block img" style="background-image: url(https://www.mmaya.gob.bo/wp-content/uploads/2020/07/WhatsApp-Image-2020-07-09-at-12.19.38-800x533.jpeg);">
+									<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-route"></span></div>
+									<div class="media-body">
+										<h3 class="heading mb-3">Excursiones</h3>
+										<p>Descubre la exuberante belleza del Parque Nacional Cotapata en Bolivia. Camina entre paisajes impresionantes y admira su abundante flora y fauna. ¡Una experiencia natural única!</p>
+									</div>
+								</div>    
+							</div>
+							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+								<div class="services services-1 color-3 d-block img" style="background-image: url(images/services-3.jpg);">
+									<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-tour-guide"></span></div>
+									<div class="media-body">
+										<h3 class="heading mb-3">Guia personalizada</h3>
+										<p>Tu guía personalizada para descubrir destinos únicos y vivir experiencias inolvidables en el turismo.</p>
+									</div>
+								</div>      
+							</div>
+							<div class="col-md-12 col-lg-6 d-flex align-self-stretch ftco-animate">
+								<div class="services services-1 color-4 d-block img" style="background-image: url(https://comidasbolivianas.org/wp-content/uploads/2020/06/fricase-boliviano.jpg);">
+									<div class="icon d-flex align-items-center justify-content-center"><span class="flaticon-map"></span></div>
+									<div class="media-body">
+										<h3 class="heading mb-3">Gastronomia</h3>
+										<p>Descubre la sabrosa gastronomía de El Alto. Platos tradicionales y auténticos que te encantarán. ¡Una experiencia culinaria única!</p>
+									</div>
+								</div>      
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="gastronomia" class="ftco-section img ftco-select-destination" style="background-image: url(images/bg_3.jpg);">
+			<div class="container">
+				<div class="row justify-content-center pb-4">
+					<div class="col-md-12 heading-section text-center ftco-animate">
+						<span class="subheading">Comidas Tipicas</span>
+						<h2 class="mb-4">Nuestra eleccion de platillos</h2>
+					</div>
+				</div>
+			</div>
+			<div class="container container-2">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="carousel-destination owl-carousel ftco-animate">
+							<div class="item">
+								<div class="project-destination">
+									<a href="#" class="img" style="background-image: url(https://comidasbolivianas.org/wp-content/uploads/2020/06/fricase-boliviano.jpg);">
+										<div class="text">
+											<h3>Fricase</h3>
+											<span>25bs</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="project-destination">
+									<a href="#" class="img" style="background-image: url(https://buenvivirdigital.com/user-files/blog/1647358592el-fiambre-plato-bandera-el-alto.jpg);">
+										<div class="text">
+											<h3>Fiambre</h3>
+											<span>10bs</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="project-destination">
+									<a href="#" class="img" style="background-image: url(https://otrareceta.com/wp-content/uploads/2017/03/aji-de-fideo-1.png);">
+										<div class="text">
+											<h3>Aji de fideo</h3>
+											<span>15bs</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="project-destination">
+									<a href="#" class="img" style="background-image: url(https://cdn.bolivia.com/gastronomia/2018/03/12/sandwich-de-chola-boliviano-3575.jpg);">
+										<div class="text">
+											<h3>Sandwich de Chola</h3>
+											<span>12bs</span>
+										</div>
+									</a>
+								</div>
+							</div>
+							<div class="item">
+								<div class="project-destination">
+									<a href="#" class="img" style="background-image: url(https://scontent.flpb2-2.fna.fbcdn.net/v/t1.6435-9/79781415_1410397205813113_5601490901424668672_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=ZNGkfBn3J5gAX8sCtx2&_nc_ht=scontent.flpb2-2.fna&oh=00_AfBQm__JDbKGp7GS12G6E_ffdfIUZqR4e9Pmi-BQyiEztg&oe=64AC1A37);">
+										<div class="text">
+											<h3>Lechon al horno</h3>
+											<span>20bs</span>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<!--Seccion de Lugares-->
+
+		<section id="destinos" class="ftco-section">
+			<div class="container">
+				<div class="row justify-content-center pb-4">
+					<div class="col-md-12 heading-section text-center ftco-animate">
+						<span class="subheading">Descubre estos lugares</span>
+						<h2 class="mb-4">Empecemos con el viaje!</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(https://www.elaltodigital.com/wp-content/uploads/2017/10/feria_16_dejulio-1024x647.jpg);">
+							</a>
+							<div class="text p-4">
+								<span class="days">Zona 16 de Julio</span>
+								<h3><a href="#">Feria 16 de Julio</a></h3>
+								<p class="location"></span>La Feria 16 de julio es un mercado popular callejero en la ciudad de El Alto, Bolivia. La feria toma las calles del Este de la ciudad, específicamente la zona 16 de julio, zona limítrofe con la ciudad de La Paz</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(https://www.eabolivia.com/images/stories/newsbolivia/cementerio-milluni-turismo-elalto.jpg);">
+							</a>
+							<div class="text p-4">
+								<span class="days">Alto Miluni</span>
+								<h3><a href="#">Cementerio de Milluni</a></h3>
+								<p class="location"></span>En este cementerio yacen los cuerpos de las víctimas que dieron resistencia a la masacre del 24 de mayo de 1965 en el gobierno del René Barrientos Ortuño, ahora declarado patrimonio arquitectónico de la ciudad de El Alto.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(https://1.bp.blogspot.com/-QI8O2O64WtA/XqIM8IXOzwI/AAAAAAAATgE/RZ1rSlDHjVon_eRmhERdBzclBCc6bEwvgCLcBGAsYHQ/s1600/ruta-qhuta%25C3%25B1a-el-alto-bo-2020-reyqui.jpg);">
+							</a>
+							<div class="text p-4">
+								<span class="days">Alto Milluni</span>
+								<h3><a href="#">Laguna Muruqu Qhuta</a></h3>
+								<p class="location">La Laguna Muruqu Qhuta es una pequeña laguna de agua cristalina formada naturalmente y fuente de vida de la fauna silvestre que vive en sus alrededores, en su mayoría aves como los flamencos.</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(https://1.bp.blogspot.com/-mDdQ6L2vvdw/XqIOralGyMI/AAAAAAAATgg/yql8zeFDkoEHp_A0len3CBDselPREQofACLcBGAsYHQ/s1600/Laguna-Jankho-Khota-el-alto-bo-2020-reyqui.jpg);">
+							</a>
+							<div class="text p-4">
+								<span class="days">Distrito 13, Norte de El Alto</span>
+								<h3><a href="#">Laguna Jankho Khota</a></h3>
+								<p class="location">Esta laguna es una de la principales fuentes de abastecimiento de la población alteña y paceña. Jankho Khota tiene un filtro polarizado que hace que el agua se vea oscura, eliminando el reflejo del cielo.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(https://www.eabolivia.com/images/stories/newsbolivia/cholets-turismo-elalto.jpg);">
+							</a>
+							<div class="text p-4">
+								<span class="days">El Alto</span>
+								<h3><a href="#">Acquitectura Alteña - Cholets</a></h3>
+								<p class="location">La arquitectura con altura se ha convertido en uno de los atractivos turísticos de El Alto, con formas inspiradas en la iconografía de la cultura tiahuanacota. El paisaje de la ciudad de El Alto se pinta de colores con la creciente tendencia de la arquitectura neo andina, en sus edificaciones los denominados “Cholets”.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(https://www.eabolivia.com/images/stories/newsbolivia/entrada-16-dejulio-turismo-elalto.jpg);">
+							</a>
+							<div class="text p-4">
+								<span class="days">Zona 16 de Julio</span>
+								<h3><a href="#">La Entrada 16 de Julio</a></h3>
+								<p class="location">La entrada de la 16 de julio en El Alto, Bolivia, en honor a la Virgen del Carmen, es la segunda más grande después del Gran Poder. Participan más de 50 fraternidades con más de 60.000 danzarines. Es la festividad más importante de la ciudad y atrae a muchos visitantes interesados en la cultura boliviana.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="hoteles" class="ftco-section">
+			<div class="container">
+				<div class="row justify-content-center pb-4">
+					<div class="col-md-12 heading-section text-center ftco-animate">
+						<span class="subheading">Descubre estos lugares</span>
+						<h2 class="mb-4">Donde quieres quedarte?</h2>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(https://static.wixstatic.com/media/33fcac_0680d7e0b3e94b4988681f9964ed46f4~mv2_d_2048_2048_s_2.png);">
+								<span class="price">$50/persona</span>
+							</a>
+							<div class="text p-4">
+								<span class="days">Duracion de 8 dias</span>
+								<h3><a href="#">Hotel Espectacular</a></h3>
+								<p class="location"><span class="fa fa-map-marker"></span> El Alto, Calle 5 No. 50</p>
+								<ul>
+									<li><span class="flaticon-shower"></span>2</li>
+									<li><span class="flaticon-king-size"></span>3</li>
+									<li><span class="flaticon-mountains"></span>Altura</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/223981251.jpg?k=e8aa96cd3e9612503091bb476c4aa020d1404b7e2d61e4b33c86af6e717b6cf9&o=&hp=1);">
+								<span class="price">$100/persona</span>
+							</a>
+							<div class="text p-4">
+								<span class="days">Duracion de 7 dias</span>
+								<h3><a href="#">Alexander Palace Hotel</a></h3>
+								<p class="location"><span class="fa fa-map-marker"></span> El Alto, Calle 3</p>
+								<ul>
+									<li><span class="flaticon-shower"></span>2</li>
+									<li><span class="flaticon-king-size"></span>3</li>
+									<li><span class="flaticon-mountains"></span>Altura</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/409494577.jpg?k=e8e5729d6c5accd6302ae1998f25d2bae14e241ffe4d4f7febebaee095f2f57f&o=&hp=1);">
+								<span class="price">$80/persona</span>
+							</a>
+							<div class="text p-4">
+								<span class="days">Duracion de 7 dias</span>
+								<h3><a href="#">Hotel Esmeralda</a></h3>
+								<p class="location"><span class="fa fa-map-marker"></span> El Alto, Entre calles 3 y 4</p>
+								<ul>
+									<li><span class="flaticon-shower"></span>2</li>
+									<li><span class="flaticon-king-size"></span>3</li>
+									<li><span class="flaticon-mountains"></span>Altura</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(https://cf.bstatic.com/xdata/images/hotel/max1024x768/190013512.jpg?k=f9e3f4ca1ad4e00290243536ee3e20b9b8e7edd0df2397a298af60ffdf74f1a5&o=&hp=1);">
+								<span class="price">$60/persona</span>
+							</a>
+							<div class="text p-4">
+								<span class="days">Duracion de 8 dias</span>
+								<h3><a href="#">Gran Hostal Copacabana</a></h3>
+								<p class="location"><span class="fa fa-map-marker"></span> El Alto, Calles 5 V. Dolores</p>
+								<ul>
+									<li><span class="flaticon-shower"></span>2</li>
+									<li><span class="flaticon-king-size"></span>3</li>
+									<li><span class="flaticon-mountains"></span>Altura</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(https://cf.bstatic.com/xdata/images/hotel/max500/418343833.jpg?k=9d3e595df531f2c7a935e84fe87685ccdbe68e09c4325f9842e4cfeb4a8a13a0&o=&hp=1);">
+								<span class="price">$85/persona</span>
+							</a>
+							<div class="text p-4">
+								<span class="days">Duracion de 10 dias</span>
+								<h3><a href="#">Madero Hotel & Suits</a></h3>
+								<p class="location"><span class="fa fa-map-marker"></span> El Alto, A 1 cuadra de la Pza. del Estudiante</p>
+								<ul>
+									<li><span class="flaticon-shower"></span>2</li>
+									<li><span class="flaticon-king-size"></span>3</li>
+									<li><span class="flaticon-mountains"></span>Altura</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 ftco-animate">
+						<div class="project-wrap">
+							<a href="#" class="img" style="background-image: url(https://terrandes.lapazhotelsweb.com/data/Images/OriginalPhoto/9337/933796/933796999/image-la-paz-hotel-terrandes-13.JPEG);">
+								<span class="price">$40/persona</span>
+							</a>
+							<div class="text p-4">
+								<span class="days">Duracion de 7 dias</span>
+								<h3><a href="#">Qantu Hotel</a></h3>
+								<p class="location"><span class="fa fa-map-marker"></span> El Alto, Av. Illampu 740</p>
+								<ul>
+									<li><span class="flaticon-shower"></span>2</li>
+									<li><span class="flaticon-king-size"></span>3</li>
+									<li><span class="flaticon-mountains"></span>Altura</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="sobre_nosotros" class="ftco-section ftco-about img"style="background-image: url(https://unifranz.edu.bo/wp-content/uploads/2023/01/Giannina-Machicado-1024x538.jpg);">
+			<div class="overlay"></div>
+			<div class="container py-md-5">
+				<div class="row py-md-5">
+					<div class="col-md d-flex align-items-center justify-content-center">
+						<a href="/images/El Alto (Bolivia) 4K.mp4" class="icon-video popup-vimeo d-flex align-items-center justify-content-center mb-4">
+							<span class="fa fa-play"></span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ftco-section ftco-about ftco-no-pt img">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col-md-12 about-intro">
+						<div class="row">
+							<div class="col-md-6 d-flex align-items-stretch">
+								<div class="img d-flex w-100 align-items-center justify-content-center" style="background-image:url(images/about-1.jpg);">//niño
+								</div>
+							</div>
+							<div class="col-md-6 pl-md-5 py-5">
+								<div class="row justify-content-start pb-3">
+									<div class="col-md-12 heading-section ftco-animate">
+										<span class="subheading">Sobre Nosotros</span>
+										<h2 class="mb-4">Descubre El Alto de manera única con nuestra agencia de turismo local. Experiencias auténticas y recorridos fascinantes te esperan. ¡Únete a nosotros y vive la aventura!</p>
+										<p><a href="#destinos" class="btn btn-primary">Descubre el lugar para ti</a></p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="testimonios" class="ftco-section testimony-section bg-bottom" style="background-image: url(https://prensa.evacopa.bo/wp-content/uploads/2021/08/turismo-ea-1024x576.jpg);">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row justify-content-center pb-4">
+					<div class="col-md-7 text-center heading-section heading-section-white ftco-animate">
+						<span class="subheading">Testimonios</span>
+						<h2 class="mb-4">Viajeros recomiendan</h2>
+					</div>
+				</div>
+				<div class="row ftco-animate">
+					<div class="col-md-12">
+						<div class="carousel-testimony owl-carousel">
+							<div class="item">
+								<div class="testimony-wrap py-4">
+									<div class="text">
+										<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+										<p class="mb-4">¡Una experiencia increíble con la agencia de turismo en El Alto! Descubrí lugares impresionantes y me sentí cuidada en todo momento. Recomiendo esta agencia para vivir una aventura única</p>
+										<div class="d-flex align-items-center">
+											<div class="user-img" style="background-image: url(https://i.pinimg.com/736x/9e/cd/ce/9ecdce6d265d20a0bdb76a378a4cd3b4.jpg)"></div>
+											<div class="pl-3">
+												<p class="name">Marcos Soplavela</p>
+												<span class="position">Diseñador Grafico</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-wrap py-4">
+									<div class="text">
+										<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+										<p class="mb-4">Mi viaje organizado por esta agencia en El Alto fue perfecto. Cada detalle fue cuidado y conocí la auténtica cultura local. Gracias por una experiencia inolvidable</p>
+										<div class="d-flex align-items-center">
+											<div class="user-img" style="background-image: url(https://i.pinimg.com/736x/af/9a/ad/af9aad89655a43a57e64450323b3baec.jpg)"></div>
+											<div class="pl-3">
+												<p class="name">Ana Lisa Melano</p>
+												<span class="position">Gerente de Marketing</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-wrap py-4">
+									<div class="text">
+										<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+										<p class="mb-4">El viaje con la agencia en El Alto superó mis expectativas. Los guías eran conocedores y amables, y me sentí seguro en todo momento. Definitivamente volveré a viajar con ellos</p>
+										<div class="d-flex align-items-center">
+											<div class="user-img" style="background-image: url(https://i.pinimg.com/736x/cb/a8/eb/cba8eb81b1fcd6a3fd34858c486c1b8d.jpg)"></div>
+											<div class="pl-3">
+												<p class="name">Josue Garcia</p>
+												<span class="position">Ing. Industrial</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-wrap py-4">
+									<div class="text">
+										<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+										<p class="mb-4">Increíble experiencia con la agencia de turismo en El Alto. Descubrí rincones sorprendentes y me sumergí en la cultura local. ¡Altamente recomendado para aventuras auténticas!</p>
+										<div class="d-flex align-items-center">
+											<div class="user-img" style="background-image: url(https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/6f5b57197cd29fdc7c3a322bb5590ad9~c5_720x720.jpeg?x-expires=1686506400&x-signature=rtcpRWjREPZ4LqddmihghpP%2B6sU%3D)"></div>
+											<div class="pl-3">
+												<p class="name">Juan Gonzalez</p>
+												<span class="position">Arquitecto</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item">
+								<div class="testimony-wrap py-4">
+									<div class="text">
+										<p class="star">
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+											<span class="fa fa-star"></span>
+										</p>
+										<p class="mb-4">¡Hey muy a todos guapisimos, aqui Vegetta777 y en el dia de hoy tuve una experiencia épica con la agencia de turismo en El Alto! Descubrí lugares asombrosos y los guías fueron geniales. ¡Recomiendo esta agencia para una aventura única!</p>
+										<div class="d-flex align-items-center">
+											<div class="user-img" style="background-image: url(https://www.cuandopasa.com/pic/v/000/083/v0000083970cyo.jpg)"></div>
+											<div class="pl-3">
+												<p class="name">Samuel de Luque Batuecas</p>
+												<span class="position">Youtuber/Arquitecto en Minecraft</span>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="ftco-intro ftco-section ftco-no-pt">
+			<div class="container">
+				<div class="row justify-content-center">
+					<div class="col-md-12 text-center">
+						<div class="img"  style="background-image: url(https://content.r9cdn.net/rimg/dimg/59/66/56b9c63c-city-13346-164dcfc0a70.jpg?width=1366&height=768&xhint=3450&yhint=2249&crop=true);">
+							<div class="overlay"></div>
+							<h2>Descubre Nuestra Diversidad</h2>
+							<p>Viva Bolivia Carajo!</p>
+							<p class="mb-0"><a href="#" class="btn btn-primary px-4 py-3">Que viva!</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<footer id="contacto" class="ftco-footer bg-bottom ftco-no-pt" style="background-image: url(https://us.123rf.com/450wm/phatthanit/phatthanit1802/phatthanit180200027/95561867-fondo-de-cielo-azul-claro-y-espacio-vac%C3%ADo-para-su-dise%C3%B1o-sin-nubes.jpg?ver=6);">
+			<div class="container">
+				<div class="row mb-5">
+					<div class="col-md pt-5">
+						<div class="ftco-footer-widget pt-md-5 mb-4">
+							<h2 class="ftco-heading-2">Sobre Nosotros</h2>
+							<p>Viaje por El Alto de manera segura, divertida y vive una experiencia inolvidable. Y sin ser asaltado!😱</p>
+							<ul class="ftco-footer-social list-unstyled float-md-left float-lft">
+								<li class="ftco-animate"><a href="#"><span class="fa fa-twitter"></span></a></li>
+								<li class="ftco-animate"><a href="#"><span class="fa fa-facebook"></span></a></li>
+								<li class="ftco-animate"><a href="#"><span class="fa fa-instagram"></span></a></li>
+							</ul>
+						</div>
+					</div>
+					<!-- <div class="col-md pt-5 border-left">
+						<div class="ftco-footer-widget pt-md-5 mb-4 ml-md-5">
+							<h2 class="ftco-heading-2">Infromation</h2>
+							<ul class="list-unstyled">
+								<li><a href="#" class="py-2 d-block">Online Enquiry</a></li>
+								<li><a href="#" class="py-2 d-block">General Enquiries</a></li>
+								<li><a href="#" class="py-2 d-block">Booking Conditions</a></li>
+								<li><a href="#" class="py-2 d-block">Privacy and Policy</a></li>
+								<li><a href="#" class="py-2 d-block">Refund Policy</a></li>
+								<li><a href="#" class="py-2 d-block">Call Us</a></li>
+							</ul>
+						</div>
+					</div> -->
+					<div class="col-md pt-5 border-left">
+						<div class="ftco-footer-widget pt-md-5 mb-4">
+							<h2 class="ftco-heading-2">Secciones de su interes</h2>
+							<ul class="list-unstyled">
+								<li><a href="#" class="py-2 d-block">Inicio</a></li>
+								<li><a href="#bienvenida" class="py-2 d-block">Bienvenida</a></li>
+								<li><a href="#gastronomia" class="py-2 d-block">Gastronomia</a></li>
+								<li><a href="#hoteles" class="py-2 d-block">Hoteles</a></li>
+								<li><a href="#testimonios" class="py-2 d-block">Testimonios</a></li>
+								<li><a href="#destinos" class="py-2 d-block">Destinos</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md pt-5 border-left">
+						<div class="ftco-footer-widget pt-md-5 mb-4">
+							<h2 class="ftco-heading-2">Aun tiene preguntas?</h2>
+							<div class="block-23 mb-3">
+								<ul>
+									<li><span class="icon fa fa-map-marker"></span><span class="text">El Alto, Bolivia</span></li>
+									<li><a href="https://wa.me/59173091324?text=Hola%20hablo%20con%20Jhon%20de%20turismo?" target="_blank"><span class="icon fa fa-phone"></span><span class="text">+591 73091324</span></a></li>
+									<li><a href="https://wa.me/59173091324?text=Me%20interesa%20el%20servicio%20de%20turismo" target="_blank"><span class="icon fa fa-paper-plane"></span><span class="text">jhon@unifranz.edu.com</span></a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12 text-center">
+							Copyright &copy;<script>document.write(new Date().getFullYear());</script> Todos los derechos reservados | Web/App hecha por Jhon</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+			
+			
+
+			<!-- loader -->
+			<div id="ftco-loader" class="show fullscreen"><svg class="circular" width="48px" height="48px"><circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee"/><circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10" stroke="#F96D00"/></svg></div>
+
+
+			<script src="js/jquery.min.js"></script>
+			<script src="js/jquery-migrate-3.0.1.min.js"></script>
+			<script src="js/popper.min.js"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/jquery.easing.1.3.js"></script>
+			<script src="js/jquery.waypoints.min.js"></script>
+			<script src="js/jquery.stellar.min.js"></script>
+			<script src="js/owl.carousel.min.js"></script>
+			<script src="js/jquery.magnific-popup.min.js"></script>
+			<script src="js/jquery.animateNumber.min.js"></script>
+			<script src="js/bootstrap-datepicker.js"></script>
+			<script src="js/scrollax.min.js"></script>
+			<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVWaKrjvy3MaE7SQ74_uJiULgl1JY0H2s&sensor=false"></script>
+			<script src="js/google-map.js"></script>
+			<script src="js/main.js"></script>
+			
+		</body>
+		</html>
